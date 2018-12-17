@@ -1,0 +1,21 @@
+@import "../../../common/vendor.wxss";
+
+.login-content.data-v-aef48bd8 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.login-content .company-logo.data-v-aef48bd8 {
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  margin-top: 100rpx;
+}
+.login-content .company-logo .image.data-v-aef48bd8 {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: green;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}

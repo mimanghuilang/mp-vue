@@ -1,0 +1,12 @@
+<template name="5a7c4a32">
+  <view class="_div data-v-aef48bd8 login-content">
+    <view class="_div data-v-aef48bd8 company-logo">
+      <image class="_img data-v-aef48bd8 image" src alt="企业logo"></image>
+    </view>
+    <view class="_div data-v-aef48bd8 login-box">
+      <view class="_div data-v-aef48bd8 phone-box"><input type="text" class="_input data-v-aef48bd8 phone-input" /></view>
+      <view class="_div data-v-aef48bd8 password-box"><input type="password" class="_input data-v-aef48bd8 password-input" /> <button class="_button data-v-aef48bd8">获取验证码</button></view>
+      <view class="_div data-v-aef48bd8 button-box"><button class="_button data-v-aef48bd8">登录</button></view>
+    </view>
+  </view>
+</template>

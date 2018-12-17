@@ -1,0 +1,19 @@
+@import "../../../common/vendor.wxss";
+
+.counter-warp.data-v-4c841959 {
+  text-align: center;
+  margin-top: 200rpx;
+}
+.home.data-v-4c841959 {
+  display: inline-block;
+  margin: 200rpx auto;
+  padding: 10rpx 20rpx;
+  color: blue;
+  border: 2rpx solid blue;
+}
+.haha.data-v-4c841959 {
+  background-color: green;
+}
+.haha .xixi.data-v-4c841959 {
+  height: 198rpx;
+}
