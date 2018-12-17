@@ -1,8 +1,9 @@
+<!--计数页面-->
 <template>
   <div class="counter-warp">
     <p>Vuex counter：{{ count }}</p>
-    <p>
-      <button @click="increment">+</button>
+    <p class="haha">
+      <button class="xixi" @click="increment">+</button>
       <button @click="decrement">-</button>
     </p>
 
@@ -31,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style rel="stylesheet/scss" lang="scss" scoped>
 .counter-warp {
   text-align: center;
   margin-top: 100px;
@@ -42,5 +43,11 @@ export default {
   padding: 5px 10px;
   color: blue;
   border: 1px solid blue;
+}
+.haha{
+  background-color: green;
+  .xixi{
+    height: 99px;
+  }
 }
 </style>

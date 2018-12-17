@@ -1,13 +1,41 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/tabBar/index/main",
+    "pages/tabBar/logs/main",
+    "pages/tabBar/counter/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "subPackages": [
+    {
+      "root": "pages/index/",
+      "pages": [
+        "list/main"
+      ]
+    },
+    {
+      "root": "pages/counter/",
+      "pages": [
+        "list/main"
+      ]
+    },
+    {
+      "root": "pages/logs/",
+      "pages": [
+        "list/main"
+      ]
+    }
+  ],
+  "networkTimeout": {
+    "request": 120000,
+    "connectSocket": 120000,
+    "uploadFile": 120000,
+    "downloadFile": 120000
+  },
+  "debug": true,
+  "component": true
 }
