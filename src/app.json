@@ -14,7 +14,8 @@
     {
       "root": "pages/index/",
       "pages": [
-        "list/main"
+        "list/main",
+        "login/main"
       ]
     },
     {
@@ -30,6 +31,27 @@
       ]
     }
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/main",
+        "text": "在线作业"
+      },
+      {
+        "pagePath": "pages/tabBar/logs/main",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/tabBar/counter/main",
+        "text": "个人中心"
+      }
+    ],
+    "selectedColor": "#333",
+    "color": "#333",
+    "borderStyle": "#999",
+    "position": "bottom",
+    "backgroundColor": "#fff"
+  },
   "networkTimeout": {
     "request": 120000,
     "connectSocket": 120000,

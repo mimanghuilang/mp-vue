@@ -1,13 +1,63 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/tabBar/index/main",
+    "pages/tabBar/logs/main",
+    "pages/tabBar/counter/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "subPackages": [
+    {
+      "root": "pages/index/",
+      "pages": [
+        "list/main",
+        "login/main"
+      ]
+    },
+    {
+      "root": "pages/counter/",
+      "pages": [
+        "list/main"
+      ]
+    },
+    {
+      "root": "pages/logs/",
+      "pages": [
+        "list/main"
+      ]
+    }
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/main",
+        "text": "在线作业"
+      },
+      {
+        "pagePath": "pages/tabBar/logs/main",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/tabBar/counter/main",
+        "text": "个人中心"
+      }
+    ],
+    "selectedColor": "#333",
+    "color": "#333",
+    "borderStyle": "#999",
+    "position": "bottom",
+    "backgroundColor": "#fff"
+  },
+  "networkTimeout": {
+    "request": 120000,
+    "connectSocket": 120000,
+    "uploadFile": 120000,
+    "downloadFile": 120000
+  },
+  "debug": true,
+  "component": true
 }
